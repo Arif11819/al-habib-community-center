@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bree+Serif&family=Courgette&family=Dancing+Script:wght@600;700&family=Oleo+Script&family=Poppins:wght@100;400;500;700&family=Roboto:wght@100&family=Secular+One&family=Signika&family=Ubuntu+Condensed&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.slide-size{
+    width: 1440px;
+    height: 584px;
+}
+.book-anchor{
+    width: 168px;
+    height: 44px;
+    padding: 7px;
+    border-radius: 5px;
+    color: #3F87F5;
+    font-size: 16px;
+}
+.package-section{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+.our-package{
+    margin-bottom: 100px;
+}
+.package-items{
+    width: 1170px;
+    height: 517px;
+}
+.card-title{
+    color: #231D4F;
+}
+.colorful-item{
+    background-color: #3F87F5;
+    color: white;
+    width: 292px;
+    height: 480px;
+}
+.fas{
+    color: azure;
+}

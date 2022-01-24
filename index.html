@@ -17,7 +17,7 @@
 
 <body>
     <!-- convention center title and slide -->
-    <header class="ms-5 mt-5 mb-5">
+    <header class="mt-5 mb-5">
         <h4 class="fw-bolder text-center">Al-Habib Community Center</h4>
         <!-- slide start -->
         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -79,10 +79,10 @@
             </button>
         </div>
     </header>
-    <main>
+    <main class="mb-5">
         <section class="package-section">
-            <h1 class="text-center fw-bolder our-package">Our Package</h1>
-            <div class="row row-cols-1 row-cols-md-4 g-4 package-items">
+            <h1 class="text-center fw-bolder mb-5">Our Package</h1>
+            <div class="row row-cols-1 row-cols-md-4 g-4 package-items mt-5">
                 <div class="col mt-5">
                     <div>
                         <h1 class="fw-bolder card-title">$300</h1>
@@ -98,6 +98,7 @@
                             <p class="text-muted"><i class="fas fa-check-circle card-title me-2"></i>Decoration design
                             </p>
                             <p class="text-muted"><i class="fas fa-check-circle card-title me-2"></i>Per day bill</p>
+                            <button type="button" class="btn btn-info text-dark ps-4 pe-4">Choose plan</button>
                         </div>
                     </div>
                 </div>
@@ -117,32 +118,36 @@
                             <p class="text-muted"><i class="fas fa-check-circle card-title me-2"></i>Decoration design
                             </p>
                             <p class="text-muted"><i class="fas fa-check-circle card-title me-2"></i>Billed as shift</p>
+                            <button type="button" class="btn btn-info text-dark ps-4 pe-4">Choose plan</button>
                         </div>
                     </div>
                 </div>
-                <div class="colorful-item">
-                    <div>
-                        <h1 class="fw-bolder">$800</h1>
+                <div class="colorful-item mt-0 rounded-3 position-relative">
+                    <span
+                        class="position-absolute top-0 end-0 translate-middle badge fw-bolder p-2 rounded-pill bg-danger">Hot</span>
+                    <div class="ps-4">
+                        <h1 class="fw-bolder mt-3">$800</h1>
                         <br>
                         <h3 class="fw-bolder">Business fair</h3>
                         <div class="m-0 p-0">
                             <p class="mt-1">For most businesses event like book fair, craft fair.</p>
-                            <p><i class="fas fa-check-circle card-title me-2"></i>limited space
+                            <p><i class="fas colorful-item-icon fa-check-circle card-title  me-2"></i>limited space
                                 access</p>
-                            <p><i class="fas fa-check-circle card-title me-2"></i>Secuirty
+                            <p><i class="fas colorful-item-icon fa-check-circle card-title me-2"></i>Secuirty
                                 facility</p>
-                            <p><i class="fas fa-check-circle card-title me-2"></i>event support
+                            <p><i class="fas colorful-item-icon fa-check-circle card-title me-2"></i>event support
                             </p>
-                            <p><i class="fas fa-check-circle card-title me-2"></i>Decoration
+                            <p><i class="fas colorful-item-icon fa-check-circle card-title me-2"></i>Decoration
                                 design
                             </p>
-                            <p><i class="fas fa-check-circle card-title me-2"></i>Per day bill
+                            <p><i class="fas colorful-item-icon fa-check-circle card-title me-2"></i>Per day bill
                             </p>
+                            <button type="button" class="btn btn-info text-dark mt-5 ps-4 pe-4">Choose plan</button>
                         </div>
                     </div>
                 </div>
-                <div class="col mt-5">
-                    <div>
+                <div class="col mt-5 p-3">
+                    <div class="ms-4">
                         <h1 class="fw-bolder card-title">$1200</h1>
                         <br>
                         <h3 class="fw-bolder card-title">Corporate event</h3>
@@ -156,12 +161,93 @@
                             <p class="text-muted"><i class="fas fa-check-circle card-title me-2"></i>premium Decoration
                             </p>
                             <p class="text-muted"><i class="fas fa-check-circle card-title me-2"></i>pay as plan</p>
+                            <button type="button" class="btn btn-info text-dark ps-4 pe-4">Choose plan</button>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- Frequently Asked Questions section -->
+        <section>
+            <h1 class="fw-bolder text-center">Frequently Asked Questions</h1>
+            <div class="d-flex justify-content-evenly mt-5">
+                <!-- Accordion div -->
+                <div class="accordion-items ms-5 mt-5">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item p-2">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed fw-normal fs-4" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    What’s the difference between event design and event planning?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Hello there! Welcome to my website. If you’re here then I’m
+                                    guessing there is a good chance you are engaged so please allow me to congratulate
+                                    me on your engagement! CONGRATULATIONS! I’ve been working on some articles for
+                                    future brides and grooms to get some use out of.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item p-2">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed fw-normal fs-4" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    How early do we need to start planning an event?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">As a UK and Destination wedding photographer I’ve been lucky
+                                    enough to shoot weddings all over the world. I understand that couples just want
+                                    their wedding captured in a less traditional way nowadays and they don’t want any
+                                    cheesy posed photos.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item p-2">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed fw-normal fs-4" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    What is your refund and cancellation policy?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">The best way for you to have the best wedding photographs
+                                    are for you to have the best wedding you can. This is why I’ve invested time in
+                                    research and connecting with other suppliers within the industry to create these
+                                    helpful articles to ensure you have the best wedding ever.</div>
+                            </div>
+                        </div>
+                        <div class="accordion-item p-2">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed fw-normal fs-4" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                    aria-expanded="false" aria-controls="flush-collapseThree">
+                                    How do you keep budgets on track?
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">Our expansive range of wedding articles gives couples all
+                                    the tips, advice and inspiration they need to plan their dream wedding, our content
+                                    also expands to give great information for the wider wedding party.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-side-image">
+                    <img class="w-100" src="images/people.png" alt="">
+                </div>
+            </div>
+        </section>
     </main>
+    <footer>
+        <div class=" ms-5 w-100 bg-dark text-white">.bg-dark</div>
+    </footer>
 
 
 

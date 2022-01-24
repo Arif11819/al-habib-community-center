@@ -8,21 +8,14 @@ body{
     height: 584px;
 }
 .book-anchor{
-    width: 168px;
     height: 44px;
-    padding: 7px;
     border-radius: 5px;
     color: #3F87F5;
     font-size: 16px;
 }
 .package-section{
-    margin-left: 200px;
     margin-top: 100px;
     margin-bottom: 100px;
-}
-.package-items{
-    width: 1170px;
-    height: 517px;
 }
 .card-title{
     color: #231D4F;
@@ -30,20 +23,18 @@ body{
 .colorful-item{
     background-color: #3F87F5;
     color: white;
-    width: 292px;
     height: 530px;
 }
 .colorful-item-icon{
     color: white;
 }
 .accordion-items{
-    width: 552px;
     height: 460px;
     border-radius: 5px;
 }
-.accordion-side-image{
-    margin-top: 110px;
-}
 .footer-section{
     height: 280px;
+}
+.play-store-app{
+   width: 40%; 
 }
